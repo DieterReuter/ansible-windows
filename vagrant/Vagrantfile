@@ -73,6 +73,7 @@ Vagrant.configure(2) do |config|
   # SHELL
 
   config.vm.provision "shell", path: "scripts/install-chocolatey-and-ps3.ps1"
-  #config.vm.provision "shell", path: "scripts/ConfigureRemotingForAnsible.ps1"
+  config.vm.provision "reload"
+  config.vm.provision "shell", path: "scripts/ConfigureRemotingForAnsible.ps1"
 
 end
