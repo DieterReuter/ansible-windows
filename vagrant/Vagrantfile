@@ -74,6 +74,7 @@ Vagrant.configure(2) do |config|
 
   config.vm.provision "shell", path: "scripts/install-chocolatey.ps1"
   config.vm.provision "reload"
-  config.vm.provision "shell", path: "scripts/ConfigureRemotingForAnsible.ps1"
+  # boot strap WinRM, not needed with Vagrant Windows boxes
+  # config.vm.provision "shell", path: "scripts/ConfigureRemotingForAnsible.ps1"
 
 end
