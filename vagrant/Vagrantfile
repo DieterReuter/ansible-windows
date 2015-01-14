@@ -71,4 +71,8 @@ Vagrant.configure(2) do |config|
   # config.vm.provision "shell", inline <<-SHELL
   #   sudo apt-get install apache2
   # SHELL
+
+  config.vm.provision "shell", path: "scripts/upgrade_to_ps3.ps1"
+  config.vm.provision "shell", path: "scripts/ConfigureRemotingForAnsible.ps1"
+  
 end
