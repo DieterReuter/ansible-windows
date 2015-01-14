@@ -7,7 +7,7 @@ Testing Ansible for provisioning of Windows servers
 ```bash
 cd vagrant/scripts
 ./download-ps1-scripts.sh
-
+```
 
 ## Use the box
 
