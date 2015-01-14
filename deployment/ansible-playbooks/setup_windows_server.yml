@@ -1,0 +1,4 @@
+- name: install windows web server
+  hosts: webservers
+  roles:
+    - { role: enable_iis, sudo: yes, tags: 'webserver' }

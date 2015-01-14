@@ -1,0 +1,6 @@
+[webservers]
+web1.development
+
+# give the webservers a common configuration
+[cfg_webservers_development:children]
+webservers
