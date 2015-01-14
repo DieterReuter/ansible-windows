@@ -6,4 +6,3 @@ iex ((new-object net.webclient).DownloadString('https://chocolatey.org/install.p
 
 # install PowerShell 4.0 (this requires a reboot)
 choco install powershell
-shutdown /r /t 0
