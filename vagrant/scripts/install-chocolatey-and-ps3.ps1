@@ -1,6 +1,6 @@
 
 # Install latest Chocolatey
-@powershell -NoProfile -ExecutionPolicy unrestricted -Command "iex ((new-object net.webclient).DownloadString('https://chocolatey.org/install.ps1'))" && SET PATH=%PATH%;%systemdrive%\chocolatey\bin
+iex ((new-object net.webclient).DownloadString('https://chocolatey.org/install.ps1'))
 
-# Upgrade PowerShell
+# Upgrade to PowerShell 3.0
 cinst powershell

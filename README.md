@@ -9,9 +9,15 @@ cd vagrant/scripts
 ./download-ps1-scripts.sh
 ```
 
+### 2. check the current PowerShell version
+start a PowerShell
+```bash
+PS> $PSVersionTable
+```
+
 ## Use the box
 
-### 2. run a `vagrant up`
+### run a `vagrant up`
 ```bash
 cd vagrant
 vagrant up
