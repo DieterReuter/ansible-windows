@@ -1,0 +1,4 @@
+ansible==1.8.2
+paramiko
+passlib
+http://github.com/diyan/pywinrm/archive/master.zip#egg=pywinrm
