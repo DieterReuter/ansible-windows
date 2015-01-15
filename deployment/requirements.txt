@@ -1,4 +1,4 @@
-ansible==1.8.2
+https://github.com/ansible/ansible/archive/devel.zip
 paramiko
 passlib
 http://github.com/diyan/pywinrm/archive/master.zip#egg=pywinrm
